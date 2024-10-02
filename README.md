@@ -22,6 +22,34 @@ An AI-driven solution for automated fabric defect detection using deep learning 
   <img width="1081" alt="Screenshot 2024-10-02 at 5 46 11 PM" src="https://github.com/user-attachments/assets/d430f8d7-378c-4a9b-a997-3356ae901a0f">
 
 
+## Usage
+1. Run the Streamlit app:
+   ```
+   streamlit run fabric_defect_detection.py
+   ```
+
+2. Access the web interface via your browser (typically http://localhost:8501)
+
+3. Upload a fabric image using the file uploader
+
+4. View and interpret the results:
+   - Original image
+   - Defect heatmap
+   - Detection result and confidence score
+   - Explanation of the heatmap
+   - Contextual analysis of potential defect causes
+   - Recommendations for addressing the detected issues
+  
+  
+
+## Limitations and Future Enhancements
+- Currently limited to binary classification (defect/no defect)
+- Future plans include:
+  - Multi-class defect classification
+  - Custom model training on textile-specific datasets
+  - Real-time analysis capabilities for production lines
+  - Integration with manufacturing systems and IoT devices
+
 
 
 ## Technologies
